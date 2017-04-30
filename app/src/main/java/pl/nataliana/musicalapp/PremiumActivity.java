@@ -33,6 +33,7 @@ public class PremiumActivity extends AppCompatActivity {
         Button song = (Button) findViewById(R.id.song);
         Button random = (Button) findViewById(R.id.trending);
         Button premium = (Button) findViewById(R.id.premium);
+        premium.setText(R.string.main_menu);
 
         // Set a click listener on that View
         playlist.setOnClickListener(new View.OnClickListener() {
@@ -69,7 +70,7 @@ public class PremiumActivity extends AppCompatActivity {
             // The code in this method will be executed when the premium View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent premiumIntent = new Intent(PremiumActivity.this, PremiumActivity.class);
+                Intent premiumIntent = new Intent(PremiumActivity.this, MainActivity.class);
                 startActivity(premiumIntent);
             }
         });

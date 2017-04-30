@@ -17,4 +17,5 @@
     <string name="text_trending">This activity will show the user the most trending songs in recent time within the other users of the app</string>
     <string name="menu_premium">Become a premium user</string>
     <string name="text_premium">This activity will allow the user to become a premium user of the app, or to change settings of the premium account. Payment for the preium account will be handled thanks to Checkout (Android In-App Billing Library) (https://github.com/serso/android-checkout)</string>
+    <string name="main_menu">Main menu</string>
 </resources>

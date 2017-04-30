@@ -31,6 +31,7 @@ public class PlaylistActivity extends AppCompatActivity {
 
         // Find the View that shows the particular button
         Button playlist = (Button) findViewById(R.id.playlist);
+        playlist.setText(R.string.main_menu);
         Button song = (Button) findViewById(R.id.song);
         Button random = (Button) findViewById(R.id.trending);
         Button premium = (Button) findViewById(R.id.premium);
@@ -40,7 +41,7 @@ public class PlaylistActivity extends AppCompatActivity {
             // The code in this method will be executed when the playlist View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent playlistIntent = new Intent(PlaylistActivity.this, PlaylistActivity.class);
+                Intent playlistIntent = new Intent(PlaylistActivity.this, MainActivity.class);
                 startActivity(playlistIntent);
             }
         });

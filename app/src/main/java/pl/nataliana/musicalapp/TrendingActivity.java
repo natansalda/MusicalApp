@@ -1,6 +1,5 @@
 package pl.nataliana.musicalapp;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -33,6 +32,7 @@ public class TrendingActivity extends AppCompatActivity {
         Button playlist = (Button) findViewById(R.id.playlist);
         Button song = (Button) findViewById(R.id.song);
         Button random = (Button) findViewById(R.id.trending);
+        random.setText(R.string.main_menu);
         Button premium = (Button) findViewById(R.id.premium);
 
         // Set a click listener on that View
@@ -60,7 +60,7 @@ public class TrendingActivity extends AppCompatActivity {
             // The code in this method will be executed when the trending View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent trendingIntent = new Intent(TrendingActivity.this, TrendingActivity.class);
+                Intent trendingIntent = new Intent(TrendingActivity.this, MainActivity.class);
                 startActivity(trendingIntent);
             }
         });
