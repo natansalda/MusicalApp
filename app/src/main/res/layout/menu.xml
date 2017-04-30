@@ -34,6 +34,57 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <Button
+            android:id="@+id/playlist"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbutton"
+            android:text="@string/btn1"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_above="@+id/note"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="49dp" />
+
+        <Button
+            android:id="@+id/song"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbutton"
+            android:text="@string/btn2"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignBaseline="@+id/playlist"
+            android:layout_alignBottom="@+id/playlist"
+            android:layout_toRightOf="@+id/playlist"
+            android:layout_toEndOf="@+id/playlist" />
+
+        <Button
+            android:id="@+id/trending"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbutton"
+            android:text="@string/btn3"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignTop="@+id/playlist"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="64dp" />
+
+        <Button
+            android:id="@+id/premium"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbutton"
+            android:text="@string/btn4"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignBaseline="@+id/trending"
+            android:layout_alignBottom="@+id/trending"
+            android:layout_toRightOf="@+id/trending"
+            android:layout_toEndOf="@+id/trending" />
         <ImageView
             android:id="@+id/note"
             android:layout_width="214dp"
