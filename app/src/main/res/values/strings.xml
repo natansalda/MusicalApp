@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Musical Heart</string>
+    <string name="btn1">Your playlist</string>
+    <string name="btn2">Random song</string>
+    <string name="btn3">Trending</string>
+    <string name="btn4">Premium</string>
+    <string name="search">Search for song</string>
+    <string name="playlist">Your saved playlists</string>
+    <string name="song">Play a random song</string>
+    <string name="trending">Fresh trends</string>
+    <string name="premium">Premium users</string>
+    <string name="menu_playlist">Choose you playlist</string>
+    <string name="text_playlist">This activity will allow the user to create and play saved playlists. This will be achieved thanks to Music Player library (https://github.com/andremion/Music-Player)</string>
+    <string name="menu_song">Random song for today</string>
+    <string name="text_song">This activity will play a random song from the library to the user. This will be achieved thanks to Music Player library (https://github.com/andremion/Music-Player)</string>
+    <string name="menu_trending">Trending right now</string>
+    <string name="text_trending">This activity will show the user the most trending songs in recent time within the other users of the app</string>
+    <string name="menu_premium">Become a premium user</string>
+    <string name="text_premium">This activity will allow the user to become a premium user of the app, or to change settings of the premium account. Payment for the preium account will be handled thanks to Checkout (Android In-App Billing Library) (https://github.com/serso/android-checkout)</string>
+</resources>
